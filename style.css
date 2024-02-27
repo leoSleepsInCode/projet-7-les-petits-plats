@@ -1,0 +1,133 @@
+body {
+    margin : auto;
+    font-family: 'Anton', 'Manrope',sans-serif;
+    max-width: 1440px;
+}
+
+a,
+ul,
+h1,
+h2 {
+    margin : 0;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+}
+
+h1 {
+    color : rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+header {
+    width: 100%;
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 715px;
+    
+}
+
+header p {
+    margin : auto;
+    margin-top: 250px;
+    text-align: center;
+    width: 750px;
+    font-size: 44px;
+    font-weight: 800;
+    color: rgb(255, 209, 91);
+    text-transform: uppercase;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 954px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+header input {
+    border: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin : auto;
+}
+
+section ul {
+    display: flex;
+    align-items: center;
+    gap : 40px;
+    padding-top: 20px;
+}
+
+button {
+    margin-left: 5px;
+    border : none;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+}
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left : 10px;
+    padding-right : 10px;
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); 
+}
+
+main {
+    background-color: rgb(231, 231, 231);
+}
+
+article {
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+article h2 {
+    font-family: 'Anton', 'Manrope', sans-serif;
+}
+
+/* article a {
+    display: block;
+} */
+
+figure {
+    margin: 0;
+    width : 380px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+figure img {
+    width : 380px;
+    height : 253px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+figcaption {
+    padding : 10px;
+}
